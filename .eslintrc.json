@@ -4,15 +4,35 @@
         "es2021": true
     },
     "extends": [
-        "standard-with-typescript",
-        "plugin:react/recommended"
+        "airbnb-base",
+        "airbnb/hooks",
+        "airbnb-typescript",
+        "react-app",
+        "plugin:react/recommended",
+
+
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react-hooks/recommended",
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "plugin:import/typescript"
     ],
+    
     "parserOptions": {
+        "ecmafeatures": {
+            "tsx":true
+        },
         "ecmaVersion": "latest",
-        "sourceType": "module"
+        "sourceType": "module",
+        "project": "./tsconfig.eslint.json"
     },
     "plugins": [
-        "react"
+        "react",
+        "@typescript-eslint",
+
+        "prettier",
+        "@typescript-eslint/eslint-recommended",
+        "@typescript-eslint/recommended"
     ],
     "rules": {
     }
