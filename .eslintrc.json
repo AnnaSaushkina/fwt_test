@@ -3,7 +3,18 @@
         "browser": true,
         "es2021": true
     },
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+
+        "prettier",
+        // "@typescript-eslint/eslint-recommended",
+        "@typescript-eslint/recommended",
+        "@typescript-eslint/eslint-plugin-recommended",
+        "eslint-plugin-prettier"
+    ],
     "extends": [
+        "eslint:recommended",
         "airbnb-base",
         "airbnb/hooks",
         "airbnb-typescript",
@@ -12,13 +23,15 @@
 
 
         "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/eslint-plugin-recommended",
         "plugin:react-hooks/recommended",
         "plugin:import/errors",
         "plugin:import/warnings",
         "plugin:import/typescript"
 
     ],
-    
+    "parser": 
+        "@typescript-eslint/parser",
     "parserOptions": {
         "ecmafeatures": {
             "tsx":true
@@ -27,16 +40,7 @@
         "sourceType": "module",
         "project": "./tsconfig.eslint.json"
     },
-    "plugins": [
-        "react",
-        "@typescript-eslint",
-
-        "prettier",
-        "@typescript-eslint/eslint-recommended",
-        "@typescript-eslint/recommended",
-        //"@typescript-eslint/eslint-plugin-eslint-recommended",
-        "eslint-plugin-prettier"
-    ],
     "rules": {
+        "prettier/prettier": "error"
     }
 }
