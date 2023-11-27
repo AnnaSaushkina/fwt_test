@@ -6,7 +6,6 @@
     "plugins": [
         "react",
         "@typescript-eslint",
-
         "prettier",
         // "@typescript-eslint/eslint-recommended",
         "@typescript-eslint/recommended",
@@ -25,9 +24,12 @@
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/eslint-plugin-recommended",
         "plugin:react-hooks/recommended",
+        "plugin:prettier/recommended",
         "plugin:import/errors",
         "plugin:import/warnings",
-        "plugin:import/typescript"
+        "plugin:import/typescript",
+
+        "prettier"
 
     ],
     "parser": 
