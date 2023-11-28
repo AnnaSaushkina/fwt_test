@@ -12,7 +12,7 @@ module.exports = {
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: './tsconfig.json'
+    project: './tsconfig.json',
   },
   plugins: ['@typescript-eslint/eslint-plugin'],
   settings: {
@@ -27,17 +27,17 @@ module.exports = {
     },
   },
   rules: {
-    // 'no-unused-vars': 0,
-    // 'no-restricted-imports': 0,
-    // '@typescript-eslint/no-unused-vars': 2,
-    // 'react-refresh/only-export-components': [1, { allowConstantExport: true }],
-    // 'react/function-component-definition': [
-    //   2,
-    //   { namedComponents: 'arrow-function' },
-    // ],
-    // 'react/jsx-filename-extension': [2, { extensions: ['.tsx'] }],
-    // 'react/require-default-props': 0,
-    // 'import/prefer-default-export': 0,
-    // 'import/extensions': 0,
+    'no-unused-vars': 0,
+    'no-restricted-imports': 0,
+    '@typescript-eslint/no-unused-vars': 2,
+    'react-refresh/only-export-components': [1, { allowConstantExport: true }],
+    'react/function-component-definition': [
+      2,
+      { namedComponents: 'arrow-function' },
+    ],
+    'react/jsx-filename-extension': [2, { extensions: ['.tsx'] }],
+    'react/require-default-props': 0,
+    'import/prefer-default-export': 0,
+    'import/extensions': 0,
   },
 };
