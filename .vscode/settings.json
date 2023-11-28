@@ -1,0 +1,12 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+    "javascript",
+    {
+      "language": "typescript",
+    }
+  ]
+}
