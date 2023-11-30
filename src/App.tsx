@@ -7,20 +7,20 @@ import theme from './modules/App.module.scss';
 function App() {
 
 
-  return (
-    <div className={theme.dark_theme}>
+  // return (
+  //   <div className={theme.dark_theme}>
 
-      <header className='header'>
-        <img className='header__logo' src="./" alt="logo" />
-        <button className='header__theme-switch'></button>
-      </header>
+  //     <header className='header'>
+  //       <img className='header__logo' src="./" alt="logo" />
+  //       <button className='header__theme-switch'></button>
+  //     </header>
      
-     <filter/>
-      {/* <paintings/>
-      <pagination/> */}
+  //    <filter/>
+  //     {/* <paintings/>
+  //     <pagination/> */}
 
-    </div>
-  );
+  //   </div>
+  // );
 
 }
 
